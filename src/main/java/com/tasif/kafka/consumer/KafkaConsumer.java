@@ -15,7 +15,6 @@ public class KafkaConsumer {
 	
 	@KafkaListener(topics = "testtopic", groupId = "group_id")
     public void consume(User user) {
-		System.out.println("----------------------\nConsumer\n----------------------");
         log.info(String.format("#### -> Consumed message -> %s", user));
     }
 }
