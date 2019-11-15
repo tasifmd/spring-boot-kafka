@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tasif</groupId>
-	<artifactId>kafka</artifactId>
+	<artifactId>spring-boot-kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka</name>
 	<description>Demo project for Spring Boot</description>
